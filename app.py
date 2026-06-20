@@ -75,7 +75,7 @@ def evaluate_submission(student_name, student_answer):
 
 # 5. Build the user interface with Gradio
 with gr.Blocks(theme=gr.themes.Soft()) as demo:
-    gr.Markdown("# 🚀 AI-Powered Architectural First-Principles Evaluator")
+    gr.Markdown("# AI-Powered Architectural First-Principles Evaluator")
     gr.Markdown("### Track A: Backend Boundary & Security Validation")
     
     with gr.Row():
